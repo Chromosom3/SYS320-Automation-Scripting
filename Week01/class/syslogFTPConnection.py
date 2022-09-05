@@ -2,7 +2,9 @@ import syslogCheck
 import importlib
 importlib.reload(syslogCheck)
 
-# SSH Authentication Failures
+# FTP connection viewing
+# This script is used to search the log files for any FTP connections and prints the host that made the FTP connection.
+
 
 def ftp_connect(filename, searchTerms):
     # Call syslogCheck and return the results

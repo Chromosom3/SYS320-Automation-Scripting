@@ -3,6 +3,7 @@ import importlib
 importlib.reload(syslogCheck)
 
 # SSH Authentication Failures
+# This script will look through a log file and print out any host that attempted to SSH into this system and failed.
 
 def ssh_fail(filename, searchTerms):
     # Call syslogCheck and return the results

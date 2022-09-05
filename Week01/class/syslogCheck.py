@@ -2,6 +2,8 @@
 import re, sys
 from unittest import result
 
+# This script is a basic parser for syslog files. It imports, parses, and returns the results of a files contents.
+
 def _syslog(filename,listOfKeywords):
     # Open a file
     with open(filename) as f:

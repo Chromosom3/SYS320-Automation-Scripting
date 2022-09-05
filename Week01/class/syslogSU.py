@@ -3,6 +3,7 @@ import importlib
 importlib.reload(syslogCheck)
 
 # SU Open Logs
+# This script is used to print out each instance of an SU log in the log file. 
 
 def su_open(filename, searchTerms):
     # Call syslogCheck and return the results
