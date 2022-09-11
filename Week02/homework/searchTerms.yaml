@@ -2,3 +2,6 @@
 apache:
   php: "[GET|POST].*/wordpress/wp-login.php.*,[GET|POST].*/mediawiki/index.php.*"
   cgi: "[GET|POST].*/cgi-bin/test-cgi.*,[GET|POST].*/cgi-bin/htsearch.*"
+proxifier:
+  qq_open: "\\[*.{14}\\].*QQ.* open .*"
+  qq_data: "\\[*.{14}\\].*QQ.*close.*sent.*received.*"
