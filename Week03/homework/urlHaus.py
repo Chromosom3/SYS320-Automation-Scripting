@@ -7,7 +7,8 @@ import re
 
 
 # This defines a function called ur1HausOpen that takes two parameters.
-def ur1HausOpen(filename,searchTerm):
+# Fix: there was a 1 instead of an l in the function name.
+def urlHausOpen(filename,searchTerm):
 # Fix: Changed while to with as that is what the csv documentation states.
 # Fix: changed the f variable to csvfilename to help with keeping track.
 # Fix: emoved filename from quotes so it pulls the variable.
@@ -38,6 +39,7 @@ def ur1HausOpen(filename,searchTerm):
                     # to remove the "tt" so programs don't convert the malicious
                     # domains to links that an be accidentally clicked on.
                     the_url = eachLine[2].replace("http","hxxp")
+
                     the_src = eachLine[4]
                     print("""
                     URL:
