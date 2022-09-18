@@ -27,7 +27,9 @@ def urlHausOpen(filename,searchTerm):
         # Fix: Removed the s from searchTerms so it is the same as the paramater passed to the function.
         # Fix: Moved the indentation over for this section so it can be interpreted correctly.
         # Fix: Swapped the keyword in searchTerm and eachLine in contents for statements.
+        # This itterates through eachline in the CSV. 
         for eachLine in contents:
+            # For each keyword in the search term
             for keyword in searchTerm:
                 # Fix: This is a non imported library. Had to add the import at the begining of the file.
                 # Fix: Fixed the arguments section to match the requirements for findall. 
@@ -35,13 +37,19 @@ def urlHausOpen(filename,searchTerm):
                 x = re.findall(keyword,eachLine[2])
                 # Fix: Moved everything below here to this indentation level or further.
                 for _ in x:
+                    #print(f"underscore 2: {_}")
                     # Don't edit this line. It is here to show how it is possible
                     # to remove the "tt" so programs don't convert the malicious
                     # domains to links that an be accidentally clicked on.
                     the_url = eachLine[2].replace("http","hxxp")
-
-                    the_src = eachLine[4]
-                    print("""
-                    URL:
-                    Info: 
-                    {}""",format(the_url, the_src,"*"+60))
+                    
+                    # CSV Header
+                    # id,dateadded,url,url_status,last_online,threat,tags,urlhaus_link,reporter
+                    # Fix: changed eachLine[4] (last_online) to eachLine[7] (urlhaus_link)
+                    the_src = eachLine[7]
+                    # Fix: Changed the string formating
+                    print(f"""
+                    URL: {the_url}
+                    Info: {the_src}
+                    """ + "*" * 60)
+                    # Fix: Changed the * print to be proper so you aren't adding a string and an int and instead are putting multiple *s.
