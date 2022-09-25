@@ -1,0 +1,6 @@
+---
+search:
+  shell: ".*cmd.exe.*,.*/bin/sh.*,.*c99.php.*"
+  injection: ".*/phpmyadmin.*,.*mysql.*"
+  traversal: ".*/etc/passwd,.*\\.\\..*"
+  cms: ".*joomla.*,.*wordpress.*,.*xmlrpc.*"
