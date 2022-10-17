@@ -1,0 +1,285 @@
+### BEGIN ps -ef###
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  4 22:06 ?        00:00:07 /sbin/init
+root           2       0  0 22:06 ?        00:00:00 [kthreadd]
+root           3       2  0 22:06 ?        00:00:00 [rcu_gp]
+root           4       2  0 22:06 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 22:06 ?        00:00:00 [netns]
+root           6       2  0 22:06 ?        00:00:00 [kworker/0:0-cgroup_destroy]
+root           7       2  0 22:06 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           8       2  0 22:06 ?        00:00:00 [kworker/u256:0-events_unbound]
+root           9       2  0 22:06 ?        00:00:00 [kworker/0:1H-events_highpri]
+root          10       2  0 22:06 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 22:06 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 22:06 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 22:06 ?        00:00:00 [ksoftirqd/0]
+root          14       2  0 22:06 ?        00:00:00 [rcu_sched]
+root          15       2  0 22:06 ?        00:00:00 [migration/0]
+root          16       2  0 22:06 ?        00:00:00 [idle_inject/0]
+root          17       2  0 22:06 ?        00:00:00 [kworker/0:1-events]
+root          18       2  0 22:06 ?        00:00:00 [cpuhp/0]
+root          19       2  0 22:06 ?        00:00:00 [cpuhp/1]
+root          20       2  0 22:06 ?        00:00:00 [idle_inject/1]
+root          21       2  0 22:06 ?        00:00:00 [migration/1]
+root          22       2  0 22:06 ?        00:00:00 [ksoftirqd/1]
+root          23       2  0 22:06 ?        00:00:00 [kworker/1:0-cgroup_destroy]
+root          24       2  0 22:06 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          25       2  0 22:06 ?        00:00:00 [kdevtmpfs]
+root          26       2  0 22:06 ?        00:00:00 [inet_frag_wq]
+root          27       2  0 22:06 ?        00:00:00 [kauditd]
+root          28       2  0 22:06 ?        00:00:00 [kworker/0:2-events]
+root          29       2  0 22:06 ?        00:00:00 [khungtaskd]
+root          30       2  0 22:06 ?        00:00:00 [oom_reaper]
+root          31       2  0 22:06 ?        00:00:00 [writeback]
+root          32       2  0 22:06 ?        00:00:00 [kcompactd0]
+root          33       2  0 22:06 ?        00:00:00 [ksmd]
+root          34       2  0 22:06 ?        00:00:00 [khugepaged]
+root          38       2  0 22:06 ?        00:00:00 [kworker/1:1-events]
+root          81       2  0 22:06 ?        00:00:00 [kintegrityd]
+root          82       2  0 22:06 ?        00:00:00 [kblockd]
+root          83       2  0 22:06 ?        00:00:00 [blkcg_punt_bio]
+root          84       2  1 22:06 ?        00:00:02 [kworker/u256:1-events_unbound]
+root          85       2  0 22:06 ?        00:00:00 [tpm_dev_wq]
+root          86       2  0 22:06 ?        00:00:00 [ata_sff]
+root          87       2  0 22:06 ?        00:00:00 [md]
+root          88       2  0 22:06 ?        00:00:00 [edac-poller]
+root          89       2  0 22:06 ?        00:00:00 [devfreq_wq]
+root          90       2  0 22:06 ?        00:00:00 [watchdogd]
+root          91       2  0 22:06 ?        00:00:00 [kworker/1:1H-events_highpri]
+root          93       2  0 22:06 ?        00:00:00 [kswapd0]
+root          94       2  0 22:06 ?        00:00:00 [ecryptfs-kthrea]
+root          96       2  0 22:06 ?        00:00:00 [kthrotld]
+root          97       2  0 22:06 ?        00:00:00 [irq/24-pciehp]
+root          98       2  0 22:06 ?        00:00:00 [irq/25-pciehp]
+root          99       2  0 22:06 ?        00:00:00 [irq/26-pciehp]
+root         100       2  0 22:06 ?        00:00:00 [irq/27-pciehp]
+root         101       2  0 22:06 ?        00:00:00 [irq/28-pciehp]
+root         102       2  0 22:06 ?        00:00:00 [irq/29-pciehp]
+root         103       2  0 22:06 ?        00:00:00 [irq/30-pciehp]
+root         104       2  0 22:06 ?        00:00:00 [irq/31-pciehp]
+root         105       2  0 22:06 ?        00:00:00 [irq/32-pciehp]
+root         106       2  0 22:06 ?        00:00:00 [irq/33-pciehp]
+root         107       2  0 22:06 ?        00:00:00 [irq/34-pciehp]
+root         108       2  0 22:06 ?        00:00:00 [irq/35-pciehp]
+root         109       2  0 22:06 ?        00:00:00 [irq/36-pciehp]
+root         110       2  0 22:06 ?        00:00:00 [irq/37-pciehp]
+root         111       2  0 22:06 ?        00:00:00 [irq/38-pciehp]
+root         112       2  0 22:06 ?        00:00:00 [irq/39-pciehp]
+root         113       2  0 22:06 ?        00:00:00 [irq/40-pciehp]
+root         114       2  0 22:06 ?        00:00:00 [irq/41-pciehp]
+root         115       2  0 22:06 ?        00:00:00 [irq/42-pciehp]
+root         116       2  0 22:06 ?        00:00:00 [irq/43-pciehp]
+root         117       2  0 22:06 ?        00:00:00 [irq/44-pciehp]
+root         118       2  0 22:06 ?        00:00:00 [irq/45-pciehp]
+root         119       2  0 22:06 ?        00:00:00 [irq/46-pciehp]
+root         120       2  0 22:06 ?        00:00:00 [irq/47-pciehp]
+root         121       2  0 22:06 ?        00:00:00 [irq/48-pciehp]
+root         122       2  0 22:06 ?        00:00:00 [irq/49-pciehp]
+root         123       2  0 22:06 ?        00:00:00 [irq/50-pciehp]
+root         124       2  0 22:06 ?        00:00:00 [irq/51-pciehp]
+root         125       2  0 22:06 ?        00:00:00 [irq/52-pciehp]
+root         126       2  0 22:06 ?        00:00:00 [irq/53-pciehp]
+root         127       2  0 22:06 ?        00:00:00 [irq/54-pciehp]
+root         128       2  0 22:06 ?        00:00:00 [irq/55-pciehp]
+root         129       2  0 22:06 ?        00:00:00 [acpi_thermal_pm]
+root         130       2  0 22:06 ?        00:00:00 [kworker/u256:2-events_unbound]
+root         131       2  0 22:06 ?        00:00:00 [scsi_eh_0]
+root         132       2  0 22:06 ?        00:00:00 [scsi_tmf_0]
+root         133       2  0 22:06 ?        00:00:00 [scsi_eh_1]
+root         134       2  0 22:06 ?        00:00:00 [scsi_tmf_1]
+root         135       2  0 22:06 ?        00:00:00 [kworker/u256:3-events_freezable_power_]
+root         136       2  0 22:06 ?        00:00:00 [vfio-irqfd-clea]
+root         137       2  0 22:06 ?        00:00:00 [mld]
+root         138       2  0 22:06 ?        00:00:00 [ipv6_addrconf]
+root         139       2  0 22:06 ?        00:00:00 [kworker/u256:4-events_unbound]
+root         141       2  0 22:06 ?        00:00:00 [kworker/u256:5-events_unbound]
+root         142       2  0 22:06 ?        00:00:00 [kworker/1:2-rcu_gp]
+root         150       2  0 22:06 ?        00:00:00 [kstrp]
+root         153       2  0 22:06 ?        00:00:00 [zswap-shrink]
+root         154       2  0 22:06 ?        00:00:00 [kworker/u257:0]
+root         159       2  0 22:06 ?        00:00:00 [charger_manager]
+root         203       2  0 22:06 ?        00:00:00 [mpt_poll_0]
+root         204       2  0 22:06 ?        00:00:00 [mpt/0]
+root         205       2  0 22:06 ?        00:00:00 [cryptd]
+root         240       2  0 22:06 ?        00:00:00 [scsi_eh_2]
+root         242       2  0 22:06 ?        00:00:00 [scsi_tmf_2]
+root         243       2  0 22:06 ?        00:00:00 [scsi_eh_3]
+root         244       2  0 22:06 ?        00:00:00 [scsi_tmf_3]
+root         245       2  0 22:06 ?        00:00:00 [kworker/1:3-cgroup_destroy]
+root         246       2  0 22:06 ?        00:00:00 [scsi_eh_4]
+root         247       2  0 22:06 ?        00:00:00 [scsi_tmf_4]
+root         248       2  0 22:06 ?        00:00:00 [scsi_eh_5]
+root         249       2  0 22:06 ?        00:00:00 [scsi_tmf_5]
+root         250       2  0 22:06 ?        00:00:00 [ttm_swap]
+root         251       2  0 22:06 ?        00:00:00 [scsi_eh_6]
+root         252       2  0 22:06 ?        00:00:00 [irq/16-vmwgfx]
+root         253       2  0 22:06 ?        00:00:00 [scsi_tmf_6]
+root         254       2  0 22:06 ?        00:00:00 [scsi_eh_7]
+root         255       2  0 22:06 ?        00:00:00 [card0-crtc0]
+root         256       2  0 22:06 ?        00:00:00 [scsi_tmf_7]
+root         257       2  0 22:06 ?        00:00:00 [card0-crtc1]
+root         258       2  0 22:06 ?        00:00:00 [card0-crtc2]
+root         259       2  0 22:06 ?        00:00:00 [card0-crtc3]
+root         260       2  0 22:06 ?        00:00:00 [card0-crtc4]
+root         261       2  0 22:06 ?        00:00:00 [card0-crtc5]
+root         262       2  0 22:06 ?        00:00:00 [scsi_eh_8]
+root         263       2  0 22:06 ?        00:00:00 [card0-crtc6]
+root         264       2  0 22:06 ?        00:00:00 [card0-crtc7]
+root         265       2  0 22:06 ?        00:00:00 [scsi_tmf_8]
+root         266       2  0 22:06 ?        00:00:00 [scsi_eh_9]
+root         267       2  0 22:06 ?        00:00:00 [scsi_tmf_9]
+root         268       2  0 22:06 ?        00:00:00 [scsi_eh_10]
+root         269       2  0 22:06 ?        00:00:00 [scsi_tmf_10]
+root         270       2  0 22:06 ?        00:00:00 [scsi_eh_11]
+root         271       2  0 22:06 ?        00:00:00 [scsi_tmf_11]
+root         272       2  0 22:06 ?        00:00:00 [scsi_eh_12]
+root         273       2  0 22:06 ?        00:00:00 [scsi_tmf_12]
+root         274       2  0 22:06 ?        00:00:00 [scsi_eh_13]
+root         275       2  0 22:06 ?        00:00:00 [scsi_tmf_13]
+root         276       2  0 22:06 ?        00:00:00 [scsi_eh_14]
+root         277       2  0 22:06 ?        00:00:00 [scsi_tmf_14]
+root         278       2  0 22:06 ?        00:00:00 [scsi_eh_15]
+root         279       2  0 22:06 ?        00:00:00 [scsi_tmf_15]
+root         280       2  0 22:06 ?        00:00:00 [scsi_eh_16]
+root         281       2  0 22:06 ?        00:00:00 [scsi_tmf_16]
+root         282       2  0 22:06 ?        00:00:00 [scsi_eh_17]
+root         283       2  0 22:06 ?        00:00:00 [scsi_tmf_17]
+root         284       2  0 22:06 ?        00:00:00 [scsi_eh_18]
+root         285       2  0 22:06 ?        00:00:00 [scsi_tmf_18]
+root         286       2  0 22:06 ?        00:00:00 [scsi_eh_19]
+root         287       2  0 22:06 ?        00:00:00 [scsi_tmf_19]
+root         288       2  0 22:06 ?        00:00:00 [scsi_eh_20]
+root         289       2  0 22:06 ?        00:00:00 [scsi_tmf_20]
+root         290       2  0 22:06 ?        00:00:00 [scsi_eh_21]
+root         291       2  0 22:06 ?        00:00:00 [scsi_tmf_21]
+root         292       2  0 22:06 ?        00:00:00 [scsi_eh_22]
+root         293       2  0 22:06 ?        00:00:00 [scsi_tmf_22]
+root         294       2  0 22:06 ?        00:00:00 [scsi_eh_23]
+root         295       2  0 22:06 ?        00:00:00 [scsi_tmf_23]
+root         296       2  0 22:06 ?        00:00:00 [scsi_eh_24]
+root         297       2  0 22:06 ?        00:00:00 [scsi_tmf_24]
+root         298       2  0 22:06 ?        00:00:00 [scsi_eh_25]
+root         299       2  0 22:06 ?        00:00:00 [scsi_tmf_25]
+root         300       2  0 22:06 ?        00:00:00 [scsi_eh_26]
+root         301       2  0 22:06 ?        00:00:00 [scsi_tmf_26]
+root         302       2  0 22:06 ?        00:00:00 [scsi_eh_27]
+root         303       2  0 22:06 ?        00:00:00 [scsi_tmf_27]
+root         304       2  0 22:06 ?        00:00:00 [scsi_eh_28]
+root         305       2  0 22:06 ?        00:00:00 [scsi_eh_29]
+root         306       2  0 22:06 ?        00:00:00 [scsi_tmf_28]
+root         307       2  0 22:06 ?        00:00:00 [scsi_tmf_29]
+root         308       2  0 22:06 ?        00:00:00 [scsi_eh_30]
+root         309       2  0 22:06 ?        00:00:00 [scsi_tmf_30]
+root         310       2  0 22:06 ?        00:00:00 [scsi_eh_31]
+root         311       2  0 22:06 ?        00:00:00 [scsi_tmf_31]
+root         312       2  0 22:06 ?        00:00:00 [scsi_eh_32]
+root         313       2  0 22:06 ?        00:00:00 [scsi_tmf_32]
+root         314       2  0 22:06 ?        00:00:00 [kworker/u256:6-events_unbound]
+root         315       2  0 22:06 ?        00:00:00 [kworker/u256:7-events_unbound]
+root         316       2  0 22:06 ?        00:00:00 [kworker/u256:8-events_unbound]
+root         317       2  0 22:06 ?        00:00:00 [kworker/u256:9-events_unbound]
+root         318       2  0 22:06 ?        00:00:00 [kworker/u256:10-events_unbound]
+root         319       2  0 22:06 ?        00:00:00 [kworker/u256:11-events_unbound]
+root         320       2  0 22:06 ?        00:00:00 [kworker/u256:12-events_unbound]
+root         321       2  0 22:06 ?        00:00:00 [kworker/u256:13-events_unbound]
+root         322       2  0 22:06 ?        00:00:00 [kworker/u256:14-events_unbound]
+root         323       2  0 22:06 ?        00:00:00 [kworker/u256:15-events_unbound]
+root         324       2  0 22:06 ?        00:00:00 [kworker/u256:16-events_unbound]
+root         325       2  0 22:06 ?        00:00:00 [kworker/u256:17-events_unbound]
+root         326       2  0 22:06 ?        00:00:00 [kworker/u256:18-events_unbound]
+root         327       2  0 22:06 ?        00:00:00 [kworker/u256:19-events_unbound]
+root         328       2  0 22:06 ?        00:00:00 [kworker/u256:20-events_unbound]
+root         329       2  0 22:06 ?        00:00:00 [kworker/u256:21-events_unbound]
+root         330       2  0 22:06 ?        00:00:00 [kworker/u256:22-events_unbound]
+root         331       2  0 22:06 ?        00:00:00 [kworker/u256:23-events_unbound]
+root         332       2  0 22:06 ?        00:00:00 [kworker/u256:24-events_unbound]
+root         333       2  0 22:06 ?        00:00:00 [kworker/u256:25-events_unbound]
+root         334       2  0 22:06 ?        00:00:00 [kworker/u256:26-flush-253:0]
+root         335       2  0 22:06 ?        00:00:00 [kworker/u256:27-events_freezable_power_]
+root         336       2  0 22:06 ?        00:00:00 [kworker/u256:28-ext4-rsv-conversion]
+root         337       2  0 22:06 ?        00:00:00 [kworker/u256:29-flush-253:0]
+root         338       2  0 22:06 ?        00:00:00 [kworker/u256:30-events_unbound]
+root         339       2  0 22:06 ?        00:00:00 [kworker/u256:31-events_unbound]
+root         340       2  0 22:06 ?        00:00:00 [kworker/u256:32-events_unbound]
+root         357       2  0 22:06 ?        00:00:00 [kdmflush]
+root         387       2  0 22:06 ?        00:00:00 [raid5wq]
+root         438       2  0 22:06 ?        00:00:00 [jbd2/dm-0-8]
+root         439       2  0 22:06 ?        00:00:00 [ext4-rsv-conver]
+root         510       1  0 22:06 ?        00:00:00 /lib/systemd/systemd-journald
+root         537       2  0 22:06 ?        00:00:00 [kworker/0:3-events]
+root         538       2  0 22:06 ?        00:00:00 [kworker/1:4-events]
+root         539       2  0 22:06 ?        00:00:00 [ipmi-msghandler]
+root         550       2  0 22:06 ?        00:00:00 [kaluad]
+root         552       2  0 22:06 ?        00:00:00 [kmpath_rdacd]
+root         553       2  0 22:06 ?        00:00:00 [kmpathd]
+root         556       2  0 22:06 ?        00:00:00 [kmpath_handlerd]
+root         557       1  0 22:06 ?        00:00:00 /sbin/multipathd -d -s
+root         559       1  0 22:06 ?        00:00:00 /lib/systemd/systemd-udevd
+root         724       2  0 22:06 ?        00:00:00 [jbd2/sda2-8]
+root         726       2  0 22:06 ?        00:00:00 [ext4-rsv-conver]
+root         746       2  0 22:06 ?        00:00:00 [kworker/1:5-mpt_poll_0]
+systemd+     748       1  0 22:06 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         754       1  0 22:06 ?        00:00:00 /usr/bin/VGAuthService
+root         755       1  0 22:06 ?        00:00:00 /usr/bin/vmtoolsd
+systemd+     795       1  0 22:07 ?        00:00:00 /lib/systemd/systemd-networkd
+systemd+     797       1  0 22:07 ?        00:00:00 /lib/systemd/systemd-resolved
+root         808       1  0 22:07 ?        00:00:00 /usr/sbin/cron -f -P
+message+     810       1  0 22:07 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         818       1  0 22:07 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root         820       1  0 22:07 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         821       1  0 22:07 ?        00:00:00 /usr/libexec/polkitd --no-debug
+syslog       822       1  0 22:07 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         826       1  5 22:07 ?        00:00:07 /usr/lib/snapd/snapd
+root         829       1  0 22:07 ?        00:00:00 /lib/systemd/systemd-logind
+root         832       1  0 22:07 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root         840       1  0 22:07 ?        00:00:00 /usr/sbin/ModemManager
+root         843       1  0 22:07 tty1     00:00:00 /bin/login -p --
+tomcat       867       1 11 22:07 ?        00:00:14 /usr/lib/jvm/default-java/bin/java -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.awt.headless=true -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /usr/share/tomcat9/bin/bootstrap.jar:/usr/share/tomcat9/bin/tomcat-juli.jar -Dcatalina.base=/var/lib/tomcat9 -Dcatalina.home=/usr/share/tomcat9 -Djava.io.tmpdir=/tmp org.apache.catalina.startup.Bootstrap start
+root         871       1  0 22:07 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         889       1  0 22:07 ?        00:00:00 /usr/local/sbin/guacd -p /var/run/guacd.pid
+mysql        918       1  0 22:07 ?        00:00:00 /usr/sbin/mariadbd
+root         919       1  0 22:07 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+ubuntu      1172       1  0 22:07 ?        00:00:00 /lib/systemd/systemd --user
+ubuntu      1173    1172  0 22:07 ?        00:00:00 (sd-pam)
+ubuntu      1179     843  0 22:07 tty1     00:00:00 -bash
+root        1351     871  0 22:08 ?        00:00:00 sshd: ubuntu [priv]
+ubuntu      1410    1351  0 22:08 ?        00:00:00 sshd: ubuntu@pts/0
+ubuntu      1411    1410  0 22:08 pts/0    00:00:00 -bash
+root        1420     871  0 22:09 ?        00:00:00 sshd: ubuntu [priv]
+ubuntu      1470    1420  0 22:09 ?        00:00:00 sshd: ubuntu@notty
+ubuntu      1471    1470  0 22:09 ?        00:00:00 ps -ef
+### BEGIN ps -ef###
+
+### BEGIN netstat -an --inet###
+
+### BEGIN netstat -an --inet###
+
+### BEGIN last -adx###
+
+ubuntu   pts/0        Sun Oct 16 22:08   still logged in    192.168.1.186
+runlevel (to lvl 5)   Sun Oct 16 22:07   still running      0.0.0.0
+ubuntu   tty1         Sun Oct 16 22:07   still logged in    0.0.0.0
+reboot   system boot  Sun Oct 16 22:06   still running      0.0.0.0
+shutdown system down  Sun Oct 16 21:59 - 22:06  (00:07)     0.0.0.0
+reboot   system boot  Sun Oct 16 21:59 - 21:59  (00:00)     0.0.0.0
+shutdown system down  Sun Oct 16 21:59 - 21:59  (00:00)     0.0.0.0
+runlevel (to lvl 5)   Sun Oct 16 21:52 - 21:59  (00:06)     0.0.0.0
+reboot   system boot  Sun Oct 16 21:52 - 21:59  (00:06)     0.0.0.0
+runlevel (to lvl 5)   Fri Oct  7 12:24 - 21:52 (9+09:27)    0.0.0.0
+reboot   system boot  Fri Oct  7 12:24 - 21:59 (9+09:34)    0.0.0.0
+ubuntu   pts/0        Fri Sep  2 00:29 - crash (35+11:54)   192.168.1.186
+runlevel (to lvl 5)   Fri Sep  2 00:29 - 12:24 (35+11:55)   0.0.0.0
+reboot   system boot  Fri Sep  2 00:28 - 21:59 (44+21:30)   0.0.0.0
+shutdown system down  Thu Sep  1 17:45 - 00:28  (06:43)     0.0.0.0
+ubuntu   tty1         Thu Sep  1 17:41 - down   (00:03)     0.0.0.0
+runlevel (to lvl 5)   Thu Sep  1 17:40 - 17:45  (00:04)     0.0.0.0
+reboot   system boot  Thu Sep  1 17:40 - 17:45  (00:05)     0.0.0.0
+
+wtmp begins Thu Sep  1 17:40:04 2022
+### BEGIN last -adx###
+
+### BEGIN cut -d: -fi /etc/passwd###
+
+### BEGIN cut -d: -fi /etc/passwd###
+
