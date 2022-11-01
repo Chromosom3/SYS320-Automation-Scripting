@@ -2,14 +2,14 @@
 [36mINFO[0m[0000] No configuration file found, generating a default one... 
 [36mINFO[0m[0000] Loading Yara rules...                        
 [36mINFO[0m[0000] Scanning running processes...                
-[33mWARN[0m[0013] DETECTION! Malicious process detected as foundGoBinary  [33mpid[0m=519423 [33mprocess[0m=snapd
-[33mWARN[0m[0014] DETECTION! Malicious process detected as foundGoBinary  [33mpid[0m=561559 [33mprocess[0m=egrep
-[36mINFO[0m[0035] Scanning autoruns...                         
-[33mWARN[0m[0036] DETECTION! Malicious autorun detected as foundGoBinary  [33mimage_path[0m=/usr/bin/snap [33mtype[0m=systemd
-[33mWARN[0m[0036] DETECTION! Malicious autorun detected as foundGoBinary  [33mimage_path[0m=/usr/bin/snap [33mtype[0m=systemd
-[36mINFO[0m[0037] Scanning the filesystem (this can take several minutes)... 
-[31mERRO[0m[0037] Some malicious artifacts have been detected on this system: 
-[31mERRO[0m[0037] Found detection for foundGoBinary            
-[31mERRO[0m[0037] Found detection for foundGoBinary            
-[31mERRO[0m[0037] Found detection for foundGoBinary            
-[31mERRO[0m[0037] Found detection for foundGoBinary            
+[33mWARN[0m[0014] DETECTION! Malicious process detected as foundGoBinary  [33mpid[0m=519423 [33mprocess[0m=snapd
+[33mWARN[0m[0015] DETECTION! Malicious process detected as foundGoBinary  [33mpid[0m=561559 [33mprocess[0m=egrep
+[36mINFO[0m[0020] Scanning autoruns...                         
+[33mWARN[0m[0021] DETECTION! Malicious autorun detected as foundGoBinary  [33mimage_path[0m=/usr/bin/snap [33mtype[0m=systemd
+[33mWARN[0m[0021] DETECTION! Malicious autorun detected as foundGoBinary  [33mimage_path[0m=/usr/bin/snap [33mtype[0m=systemd
+[36mINFO[0m[0022] Scanning the filesystem (this can take several minutes)... 
+[31mERRO[0m[0022] Some malicious artifacts have been detected on this system: 
+[31mERRO[0m[0022] Found detection for foundGoBinary            
+[31mERRO[0m[0022] Found detection for foundGoBinary            
+[31mERRO[0m[0022] Found detection for foundGoBinary            
+[31mERRO[0m[0022] Found detection for foundGoBinary            
