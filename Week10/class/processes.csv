@@ -1,0 +1,216 @@
+#TYPE Selected.System.Diagnostics.Process
+"ProcessName","Id","Path"
+"AdobeNotificationClient","14952","C:\Program Files\WindowsApps\AdobeNotificationClient_3.0.1.1_x86__enpm4xejd91yc\AdobeNotificationClient.exe"
+"AdobeUpdateService","4428",
+"ApplicationFrameHost","13956","C:\Windows\system32\ApplicationFrameHost.exe"
+"audiodg","5848",
+"Calculator","14044","C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.2103.8.0_x64__8wekyb3d8bbwe\Calculator.exe"
+"Code","3436","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","4240","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","7208","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","9784","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","10156","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","10312","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","11772","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","15068","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","15084","C:\Program Files\Microsoft VS Code\Code.exe"
+"conhost","4712","C:\Windows\system32\conhost.exe"
+"conhost","9592","C:\Windows\system32\conhost.exe"
+"conhost","14012","C:\Windows\system32\conhost.exe"
+"csrss","576",
+"csrss","696",
+"ctfmon","8268",
+"dasHost","8056",
+"Discord","2408","C:\Users\Chromosome\AppData\Local\Discord\app-1.0.9007\Discord.exe"
+"Discord","3884","C:\Users\Chromosome\AppData\Local\Discord\app-1.0.9007\Discord.exe"
+"Discord","5144","C:\Users\Chromosome\AppData\Local\Discord\app-1.0.9007\Discord.exe"
+"Discord","10704","C:\Users\Chromosome\AppData\Local\Discord\app-1.0.9007\Discord.exe"
+"Discord","13132","C:\Users\Chromosome\AppData\Local\Discord\app-1.0.9007\Discord.exe"
+"Discord","15312","C:\Users\Chromosome\AppData\Local\Discord\app-1.0.9007\Discord.exe"
+"dllhost","5448",
+"dllhost","8476","C:\Windows\system32\DllHost.exe"
+"dwm","1160",
+"eguiProxy","13396","C:\Program Files\ESET\ESET Security\eguiproxy.exe"
+"ekrn","2076",
+"explorer","8240","C:\Windows\Explorer.EXE"
+"firefox","76","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","3872","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","4036","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","5552","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","9580","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","10304","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","10460","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","10940","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","11208","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","11708","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","13660","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","13768","C:\Program Files\Mozilla Firefox\firefox.exe"
+"firefox","15088","C:\Program Files\Mozilla Firefox\firefox.exe"
+"fontdrvhost","952",
+"fontdrvhost","1072",
+"ftnlsv","4500",
+"ftscanmgrhv","4484",
+"GoogleCrashHandler","9680",
+"GoogleCrashHandler64","9700",
+"horizon_client_service","4444",
+"Idle","0",
+"lghub_updater","4560",
+"LockApp","5644","C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe"
+"LsaIso","780",
+"lsass","788",
+"Memory Compression","2936",
+"Microsoft.Photos","8948","C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2022.30070.26007.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe"
+"nvcontainer","4576",
+"nvcontainer","9332","C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe"
+"nvcontainer","12044","C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe"
+"NVDisplay.Container","2604",
+"NVDisplay.Container","3492",
+"NVIDIA Share","12792","C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe"
+"NVIDIA Share","13116","C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe"
+"NVIDIA Share","13136","C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe"
+"NVIDIA Web Helper","9584","C:\Program Files (x86)\NVIDIA Corporation\NvNode\NVIDIA Web Helper.exe"
+"nvsphelper64","7464",
+"OfficeClickToRun","4508",
+"PhoneExperienceHost","11760","C:\Program Files\WindowsApps\Microsoft.YourPhone_1.22082.119.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe"
+"pia-service","4592",
+"powershell","8400","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+"powershell","13644","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+"Registry","132",
+"remoting_host","4416",
+"remoting_host","6100",
+"rundll32","7432",
+"RuntimeBroker","1460","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","2908","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","4304","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","5776","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","6756","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","9608","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","10408","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","11384","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","12068","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","12236","C:\Windows\System32\RuntimeBroker.exe"
+"SearchApp","3292","C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe"
+"SearchIndexer","7444",
+"Secure System","72",
+"SecurityHealthService","10680",
+"SecurityHealthSystray","13068","C:\Windows\System32\SecurityHealthSystray.exe"
+"services","760",
+"SgrmBroker","9832",
+"ShellExperienceHost","7848","C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe"
+"sihost","7788","C:\Windows\system32\sihost.exe"
+"smss","416",
+"spoolsv","4340",
+"Spotify","13376","C:\Users\Chromosome\AppData\Roaming\Spotify\Spotify.exe"
+"Spotify","13904","C:\Users\Chromosome\AppData\Roaming\Spotify\Spotify.exe"
+"Spotify","14092","C:\Users\Chromosome\AppData\Roaming\Spotify\Spotify.exe"
+"Spotify","14120","C:\Users\Chromosome\AppData\Roaming\Spotify\Spotify.exe"
+"Spotify","14228","C:\Users\Chromosome\AppData\Roaming\Spotify\Spotify.exe"
+"Spotify","14316","C:\Users\Chromosome\AppData\Roaming\Spotify\Spotify.exe"
+"SSUService","4764",
+"StartMenuExperienceHost","10120","C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe"
+"svchost","468",
+"svchost","700",
+"svchost","924",
+"svchost","1248",
+"svchost","1264",
+"svchost","1308",
+"svchost","1332",
+"svchost","1436",
+"svchost","1444",
+"svchost","1484",
+"svchost","1560",
+"svchost","1588",
+"svchost","1652",
+"svchost","1752",
+"svchost","1788",
+"svchost","1848",
+"svchost","1864",
+"svchost","1944",
+"svchost","2060",
+"svchost","2072",
+"svchost","2176",
+"svchost","2272",
+"svchost","2436",
+"svchost","2528",
+"svchost","2616",
+"svchost","2628",
+"svchost","2680",
+"svchost","2688",
+"svchost","2764",
+"svchost","2772",
+"svchost","2780",
+"svchost","2836",
+"svchost","2852",
+"svchost","2976",
+"svchost","3048",
+"svchost","3056",
+"svchost","3172",
+"svchost","3244",
+"svchost","3272",
+"svchost","3352",
+"svchost","3428",
+"svchost","3448","C:\Windows\System32\svchost.exe"
+"svchost","3524",
+"svchost","3688",
+"svchost","3868",
+"svchost","3988",
+"svchost","3996",
+"svchost","4016",
+"svchost","4024",
+"svchost","4456",
+"svchost","4472",
+"svchost","4516",
+"svchost","4600",
+"svchost","4656",
+"svchost","4780",
+"svchost","4880",
+"svchost","5212",
+"svchost","5220",
+"svchost","5284",
+"svchost","5408",
+"svchost","6924",
+"svchost","7036",
+"svchost","7244",
+"svchost","7252",
+"svchost","7320",
+"svchost","7328",
+"svchost","7452",
+"svchost","7836","C:\Windows\system32\svchost.exe"
+"svchost","7864",
+"svchost","7876",
+"svchost","8040","C:\Windows\system32\svchost.exe"
+"svchost","8148",
+"svchost","8200",
+"svchost","8536",
+"svchost","8628",
+"svchost","8840",
+"svchost","9100","C:\Windows\system32\svchost.exe"
+"svchost","9412",
+"svchost","10184",
+"svchost","10800",
+"svchost","10968",
+"svchost","11368",
+"svchost","15244",
+"System","4",
+"SystemSettings","2640","C:\Windows\ImmersiveControlPanel\SystemSettings.exe"
+"taskhostw","6932","C:\Windows\system32\taskhostw.exe"
+"taskhostw","8156","C:\Windows\system32\taskhostw.exe"
+"TextInputHost","12712","C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe"
+"UserOOBEBroker","11676","C:\Windows\System32\oobe\UserOOBEBroker.exe"
+"Video.UI","14396","C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22091.10031.0_x64__8wekyb3d8bbwe\Video.UI.exe"
+"vmnat","4868",
+"vmnetdhcp","4804",
+"vmware-authd","4820",
+"vmware-tray","14652","C:\Program Files (x86)\VMware\VMware Workstation\vmware-tray.exe"
+"vmware-usbarbitrator64","4860",
+"vmwsprrdpwks","4848",
+"vpnclient_x64","4984",
+"vpnclient_x64","13420","D:\Program Files\SoftEther VPN Client\vpnclient_x64.exe"
+"vpncmgr_x64","14508","D:\Program Files\SoftEther VPN Client\vpncmgr_x64.exe"
+"wallpaper64","13520","C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe"
+"wininit","688",
+"winlogon","876",
+"WUDFHost","984",
+"WUDFHost","1368",
+"zerotier_desktop_ui","14016","C:\Program Files (x86)\ZeroTier\One\zerotier_desktop_ui.exe"
+"zerotier-one_x64","4976",
