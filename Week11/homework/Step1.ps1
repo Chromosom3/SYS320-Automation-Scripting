@@ -10,7 +10,7 @@ Copy-Item -Path "C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe" `
 -Destination "~\EnNoB-$random_num.exe"
 # Check if the file exists 
 if (Test-Path -Path "~\EnNoB-$random_num.exe") {
-    Write-Host "The f   ile was found."
+    Write-Host "The file was found."
 } else {
     Write-Host "The file was NOT found." 
 }
