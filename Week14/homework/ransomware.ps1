@@ -118,7 +118,7 @@ $filelist = Get-ChildItem -Recurse -Include *.docx, *.pdf, *.xlsx -Path $dir_to_
 #Get-ChildItem -Recurse -Include *.docx, *.pdf, *.txt -Path .\Documents | Export-Csv -Path files.csv
 #$filelist = Import-Csv -Path .\files.csv -Header FullName
 
-$new_location = "secret"
+$new_location = $env:TEMP + "secret"
 mkdir $new_location
 
 # Loop through the results
