@@ -119,6 +119,7 @@ $filelist = Get-ChildItem -Recurse -Include *.docx, *.pdf, *.xlsx -Path $dir_to_
 #$filelist = Import-Csv -Path .\files.csv -Header FullName
 
 $new_location = "secret"
+mkdir $new_location
 
 # Loop through the results
 foreach ($file in $filelist) {
